@@ -527,7 +527,7 @@
 	position: absolute;
 	top: 0;
 	left: 190px;
-	z-index: 9;
+	z-index: 13;
 	border: 1px solid #000;
 	box-sizing: border-box;
 	font-size: 12px;
@@ -653,6 +653,77 @@
 	height: 440px;
 	float: left;
 	cursor: pointer;
+	/* background: #f90; */
+	position: relative;
+}
+li img{
+	width: 830px;
+	height: 440px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+.tu_banner .banner-left{
+	width: 30px;
+	height: 64px;
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	z-index: 20;
+	line-height: 64px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+}
+.tu_banner .banner-right{
+	width: 30px;
+	height: 64px;
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	z-index: 20;
+	line-height: 64px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+}
+.banner-left,.banner-right{
+	display: none;
+}
+.tu_banner:hover .banner-left{
+	display: block;
+}
+.tu_banner:hover .banner-right{
+	display: block;
+}
+.banner-nav{
+	width: 90px;
+	height: 20px;
+	/* background: #fff; */
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 20px;
+	z-index: 11;
+	display: flex;
+	justify-content: space-between;
+}
+.banner-nav-ls{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.7);
+	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .tu_banner .dian{
 	width: 224px;
@@ -695,7 +766,7 @@
 	position: absolute;
 	top: 5px;
 	right: 5px;
-	z-index: 9;
+	z-index: 11;
 }
 .tu_banner_top1:hover{
 	background-color: rgba(250, 231, 230, 0.9);
@@ -708,7 +779,7 @@
 	position: absolute;
 	bottom: 5px;
 	right: 5px;
-	z-index: 8;
+	z-index: 11;
 }
 .tu_banner_top2:hover{
 	background-color: rgba(250, 231, 230, 0.9);
