@@ -655,13 +655,14 @@
 	cursor: pointer;
 	/* background: #f90; */
 	position: relative;
+	overflow: hidden;
 }
 li img{
 	width: 830px;
 	height: 440px;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 830px;
 	z-index: 5;
 }
 .tu_banner .banner-left{
@@ -724,6 +725,9 @@ li img{
 	border-radius: 50%;
 	background: rgba(255, 255, 255, 0.7);
 	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.lshot{
+	background: #f90;
 }
 .tu_banner .dian{
 	width: 224px;
